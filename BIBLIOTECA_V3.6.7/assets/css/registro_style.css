@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url(../../img/main_img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxForm {
+    background-image: url(../../img/libro_registro.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 750px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+input{
+    width: 220px; 
+    height: auto;
+    border: 5px solid #06A4AF;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: left;
+    margin: auto 0 auto 90px;
+}
+
+input[type="submit"] {
+    height: 40px;
+    width: 80px;
+    background-color: #06A4AF;
+    font-size: 16px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 342px;
+}
+
+label {
+    display: none;
+}
+
+#apellido{margin: 0 0 auto 30px;}
+#usuario {margin: auto 0 auto 97px;}
+#contraseña {
+    margin: 0 0 auto 45px;
+    width: 185px;
+    padding-right: 50px;
+}
+#VerContraseñaImg {
+    display: none;
+    -webkit-user-drag: none;
+    margin-top: -7px;
+    height: 30px;
+    width: 30px;
+}
+
+#VerContraseñaBtn {
+    background-color: transparent;
+    height: 25px;
+    border: none;
+    padding: 0;
+    margin-top: 19px;
+    cursor: pointer;
+    outline: none;
+}
+
+#boxTitulo{text-align: center; width: 100%; height: 80px; margin-top: 70px;}
+#boxNombre{width: 49%; height: 80px; margin: 0 auto 0 auto; }
+#boxApellido{width: 49%; height: 80px; }
+#boxUsuario{width: 49%; height: 80px; }
+#boxContraseña{width: 49%; height: 80px; display: flex; }  
+#boxEnviar{width: 100%; height: 80px; margin-bottom: 70px; }
+#BoxVerContraseña{width: 50px; height: 50px; margin-right: 50px; position: absolute; margin: 0 auto auto 252px; }
